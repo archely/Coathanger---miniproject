@@ -81,3 +81,55 @@ public class Coathanger {
     if(coat < 50){
        System.out.println("This jacket is so light!. Coat hanger is available for this weight! ");
     }
+
+
+    else if(coat==50){
+        System.out.println("This jacket is OK. Coat hanger is available for this weight!");
+
+
+    }else{
+       System.out.println("This jacket is so heavy. Coat hanger ia NOT available for this weight! ");
+       System.out.println("Please change it!");
+    }
+
+   }
+
+
+      public class alert{
+          public void sensor(){
+           int choice =1 ;
+
+           try{
+
+
+            System.out.println("Do you want to know the condition of the dress? 1/Y,2/N ");
+              //User input if yes press 1  or if no press 2
+
+              Scanner choice = new Scanner(System.in);
+              int coat= choice.nextInt();
+
+                  if ( coat == 1 ){
+                  System.out.println("What do you want?\n" + "1. check my dress " + "2.Play sound" + "3.exit"); //menu options
+
+                  Scanner check = new Scanner (System.in);
+                  int checkSystem = check.nextInt();
+                  switch(checkSystem){
+
+                  case 1:
+                      measurer(); //determines the condition of the dress according to its weight.
+                      break;
+                  case 2:
+                       sound();//determines the location of the dress according to its sound.
+                       break;
+                  case 3:
+                      System.out.println(" returning to main menu... ");
+                      break;}
+              }else {
+                System.out.println("Unsuccessful choice");
+              }
+
+      //Invalid
+           }catch(Exception e){
+                System.out.println("Error! Please try again.\n"+ "1.check my dress\n"+  "2.Play sound\n" + "3.Exit");}
+    }
+}
