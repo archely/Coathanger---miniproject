@@ -66,3 +66,4 @@ public class Coathanger {
     }
 
     public void findMyCoathanger() {
+    }
