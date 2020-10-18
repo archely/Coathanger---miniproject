@@ -84,7 +84,7 @@ public class Coathanger {
         Timer timer = new Timer();
         TimerTask process = new Helper();
 
-        timer.schedule(process, 10, 10);
+        Timer.schedule(process, 10, 10);
 
     }
 }
