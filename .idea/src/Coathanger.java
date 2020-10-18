@@ -16,9 +16,9 @@ public class Coathanger {
 
     public void coathanger() {
 
-        System.out.println("Please select from menu:" + "1.Choose your coathanger color" + "2.weight measurer" + "3.Did my coat fall off the hanger?" + "4.exit" ); //select to menu
+        System.out.println("\nPlease select from menu:" + "\n1.Choose your coathanger color" + "\n2.weight measurer" + "\n3.Did my coat fall off the hanger?" + "\n4.exit" ); //select to menu
 
-        Scanner selectMenu = new Scanner(System.in);
+        Scanner menu_Options = new Scanner(System.in);
         int option = menu_Options();//input
 
         if (option == 1 ){

@@ -1,7 +1,11 @@
 
+/* Arda burak Atila
+neptun code: OL1BB5
+Date: 14/10/2020
+ */
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io*;
 
 
 
@@ -46,7 +50,7 @@ public class Coathanger {
 
     public void isCoatHeavy() {
 
-        // checks if the dog is fat or not
+        // checks if the coat heavy or not
 
         if (this.Hanger.yourCoatWeight() < 50) {
             System.out.println(this.Hanger.yourCoatType() + " is so light!. Coat hanger is available for this weight! ");
@@ -60,4 +64,12 @@ public class Coathanger {
         }
     }
 
-    public void findMyCoathanger() {
+    public void isCoat () {
+
+
+
+
+    }
+
+        if (this.)
+    }
