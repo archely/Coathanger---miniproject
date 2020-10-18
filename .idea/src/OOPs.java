@@ -1,5 +1,6 @@
 
-
+import java.util.Timer;
+import java.util.TimerTask;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -60,4 +61,29 @@ public class Coathanger {
         }
     }
 
-    public void findMyCoathanger() {
+
+    @Override
+    public void isCoathangerAlert(){ //Alert
+        System.out.println("bib");
+    }
+
+    public static int i = 0;
+    public void isSleepMode()
+    {
+        System.out.println("The system is shutting now..");
+        System.out.println("Timer ran " + ++i);
+    }
+
+    public static void main(String[] args)
+    {
+
+        Timer timer = new Timer();
+        TimerTask process = new Helper();
+
+        timer.schedule(process, 10, 10);
+
+    }
+}
+
+
+
