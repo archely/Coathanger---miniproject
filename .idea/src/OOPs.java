@@ -4,6 +4,10 @@ import java.util.TimerTask;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/*@author:Arda Burak Atila
+Neptun code:OL1BB5
+Date:19.10.2020
+*/
 
 
 public class Coathanger {
