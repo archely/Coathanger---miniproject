@@ -21,7 +21,7 @@ public class CoatHanger implements Serializable {
     }
 
     public void isCoatHeavy(){
-        isCoatHangerHeavyWeight();
+        Coathanger_Type.isCoatHangerHeavyWeight();
         alert();
 
     }
