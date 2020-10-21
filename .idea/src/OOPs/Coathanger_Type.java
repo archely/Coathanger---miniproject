@@ -11,7 +11,7 @@ Date:19.10.2020
 */
 
 
-public class Coathanger  implements Serializable{
+public class Coathanger_Type  implements Serializable{
 
     String hangerType;
     int hangerModel;
