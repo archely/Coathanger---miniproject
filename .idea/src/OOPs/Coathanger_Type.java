@@ -68,7 +68,7 @@ public class Coathanger_Type  implements Serializable{
 
 
     @Override
-    public void notification(String message) {
+    public void notification(String message) { //from alert.java
         System.out.println(message);
     }
 
