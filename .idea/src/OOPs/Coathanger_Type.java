@@ -1,4 +1,4 @@
-
+import java.io.Serializable;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.io.BufferedReader;
@@ -10,7 +10,7 @@ Date:19.10.2020
 */
 
 
-public class Coathanger {
+public class Coathanger  implements Serializable{
 
     String hangerType;
     int hangerModel;
@@ -32,7 +32,6 @@ public class Coathanger {
         Coathanger object1 = new Coathanger("wood" , "2020" , "free" , "red");
         Coathanger object2 = new Coathanger("iron", "2010" , "50$", "blue");
 
-        //Accessing object data through reference
 
         System.out.println("\n1, hanger\n");
 
@@ -51,7 +50,7 @@ public class Coathanger {
 
     public void isCoatHeavy() {
 
-        // checks if the dog is fat or not
+        // check your coat weight
 
         if (this.Hanger.yourCoatWeight() < 50) {
             System.out.println(this.Hanger.yourCoatType() + " is so light!. Coat hanger is available for this weight! ");
@@ -67,7 +66,13 @@ public class Coathanger {
 
 
     @Override
+    public void notification(String message) {
+        System.out.println(message);
+    }
+
+    @Override
     public void isCoathangerAlert(){ //Alert
+
         System.out.println("bib");
     }
 
@@ -78,7 +83,7 @@ public class Coathanger {
         System.out.println("Timer ran " + ++i);
     }
 
-    public static void main(String[] args)
+    public static void main(String[] args) //Timer
     {
 
         Timer timer = new Timer();
@@ -88,6 +93,7 @@ public class Coathanger {
 
     }
 }
+
 
 
 

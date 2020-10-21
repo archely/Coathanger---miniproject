@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.io.*;
 
+
+
 /*@author:Arda Burak Atila
 Neptun code:OL1BB5
 Date:06.09.2020
@@ -123,7 +125,7 @@ public class Coathanger {
                             break;
                         case 3:
                             System.out.println(" returning to main menu... ");
-                            break;}
+                            break;
                 }else {
                     System.out.println("Unsuccessful choice");
                 }
