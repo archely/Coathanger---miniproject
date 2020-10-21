@@ -3,6 +3,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /*@author:Arda Burak Atila
 Neptun code:OL1BB5
@@ -83,7 +84,7 @@ public class Coathanger  implements Serializable{
         System.out.println("Timer ran " + ++i);
     }
 
-    public static void main(String[] args) //Timer
+    public static void main(String[] args) //Timer.
     {
 
         Timer timer = new Timer();

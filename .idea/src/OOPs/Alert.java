@@ -21,7 +21,7 @@ public class CoatHanger implements Serializable {
 
 
     @Override
-    public void HeavyCoat() { //HeavyCoat() sends a notification to Coathanger_Type.java
+    public void HeavyCoat() { //HeavyCoat() sends a notification to Coathanger_Type.java.
         notification("Your coat is so heavy, Please change it!");
     }
 
