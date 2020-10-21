@@ -20,8 +20,9 @@ public class CoatHanger implements Serializable {
         return mCoat.getCoat().equals(Coat.HIGH);
     }
 
-    public void alert(){
-        isCoatHeavy();
+    public void isCoatHeavy(){
+        isCoatHangerHeavyWeight();
+        alert();
 
     }
 
