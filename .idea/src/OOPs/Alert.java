@@ -17,7 +17,7 @@ public class CoatHanger implements Serializable {
     }
 
     public boolean isCoatHangerHeavyWeight() { //isCoatHangerHeavyWeight() you can check MeasureLevel.java
-        return mCoat.getMeasure().equals(Coat.HIGH);
+        return mCoat.getCoat().equals(Coat.HIGH);
     }
 
     public void alert(){
