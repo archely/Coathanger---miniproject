@@ -4,30 +4,30 @@ import java.io.Serializable;
 
 public class CoathangerMeasure implements Serializable {
 
-    public CoathangerMeasure(Measure measure) {
-        this.mMeasure = measure;
+    public CoathangerMeasure(CoathangerMeasurer coat) {
+        this.mCoat = coat;
 
     }
 
-//.
+//weight levels for measure
 
 
     public void isWorkingCoathanger() {
-        this.mMeasure = measure.LOW;
+        this.mCoat = coat.LOW;
 
     }
 
     public void isWorkingCoathanger() {
-        this.mMeasure = measure.MEDIUM;
+        this.mCoat = coat.MEDIUM;
     }
 
     public void isWorkingCoathanger() {
-        this.mMeasure = measure.HIGH;
+        this.mCoat = coat.HIGH;
     }
 
 
-    public Measure getMeasure() {
-        return mMeasure;
+    public Coat getCoat() {
+        return mCoat;
     }
 }
 

@@ -3,7 +3,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+
 
 /*@author:Arda Burak Atila
 Neptun code:OL1BB5
@@ -17,6 +17,7 @@ public class Coathanger  implements Serializable{
     int hangerModel;
     int hangerPrice;
     int hangerColor;
+    int hangerWeight;
 
 
     // constructor
@@ -53,15 +54,15 @@ public class Coathanger  implements Serializable{
 
         // check your coat weight
 
-        if (this.Hanger.yourCoatWeight() < 50) {
+        if (this.hangerWeight.yourCoatWeight() < 50) {
             System.out.println(this.Hanger.yourCoatType() + " is so light!. Coat hanger is available for this weight! ");
 
-        } else if (this.Hanger.yourCoatWeight() == 50) {
+        } else if (this.hangerWeight.yourCoatWeight() == 50) {
             System.out.println(this.Hanger.yourCoatType() + "is OK. Coat hanger is available for this weight!.");
         }
 
         else {
-            System.out.println(this.Hanger.yourCoatType() + "is so heavy. Coat hanger ia NOT available for this weight!")
+            System.out.println(this.hangerWeight.yourCoatType() + "is so heavy. Coat hanger ia NOT available for this weight!")
         }
     }
 
